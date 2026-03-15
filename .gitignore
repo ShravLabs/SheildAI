@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+
+# ML artifacts (too large for git)
+ml/model/*.pkl
+data/traffic_dataset.csv
+
+# Node
+node_modules/
+build/
+.env.local
+
+# OS
+.DS_Store
+*.log
